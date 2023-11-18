@@ -86,13 +86,18 @@ main {
   transition: ease-out 0.3s all;
 }
 
-@media screen and (max-width: 470px) and (max-width: 350px) and (max-width: 270px) {
+
+@media screen and (max-width: 470px) {
   .center {
     transform: scale(0.8);
   }
+}
+@media screen and (max-width: 350px) {
   .center {
     transform: scale(0.6);
   }
+}
+@media screen and (max-width: 270px) {
   .center {
     transform: scale(0.5);
   }
